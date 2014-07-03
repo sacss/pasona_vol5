@@ -3,17 +3,214 @@
 /* common
 ------------------------------ */
 
+body {
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.inner {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.inner:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a,
+a:visited {
+  color: #333333;
+  text-decoration: none;
+}
+
+a:hover,
+a:active {
+  color: #E74C3C;
+}
+
 /* header
 ------------------------------ */
+#header {
+  margin: 50px 0 30px;
+}
+
+#header h1 {
+  float: left;
+  margin: 0;
+}
+
+#header h1 a:hover {
+  opacity: .7;
+}
+
+.header-utility-block {
+  float: right;
+}
+
+.header-utility-block p {
+  text-align: right;
+  margin-top: 0;
+}
+
+.utility-nav {
+  text-align: right;
+  margin-bottom: 13px;
+}
+
+.utility-nav li {
+  display: inline-block;
+  padding: 0 10px;
+  border-right: solid 1px #333333;
+}
+
+.utility-nav li:first-child {
+  border-left: solid 1px #333333;
+}
+
+.global-nav-block {
+  clear: both;
+}
+
+.global-nav-block ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.global-nav-block ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.global-nav-block ul li {
+  float: left;
+  font-size: 18px;
+  text-align: center
+}
+
+.global-nav-block ul li a {
+  width: 159px;
+  display: block;
+  padding: 16px 0 15px;
+  color: #ffffff;
+  background-color: #333333;
+  border: solid #CCCCCC;
+  border-width: 1px 1px 1px 0;
+}
+
+.global-nav-block ul li:first-child a {
+  width: 158px;
+  border-width: 1px;
+}
+
+.global-nav-block ul li a:hover {
+  background-color: #E74C3C;
+}
 
 /* content
 ------------------------------ */
+#content {
+  margin-bottom: 30px;
+}
+
 
 /* main
 ------------------------------ */
 
+#main {
+  float: left;
+  width: 700px;
+}
+
+.mod-block-heading h2 {
+  font-size: 18px;
+  padding: 8px 0 8px 13px;
+  background-color: #333333;
+  color: #ffffff;
+  border-bottom: solid 2px #CCCCCC;
+}
+
+.mod-dl-list {
+  margin-left: 10px;
+}
+.mod-dl-list dt{
+  float: left;
+  clear: left;
+  margin-right: 15px;
+  padding-bottom: 5px;
+}
+.mod-dl-list dd{
+  padding-bottom: 5px;
+  border-bottom: dotted 1px #CCC;
+  margin: 0 0 10px 0;
+}
+
+.mod-block-main h3 {
+  margin-left: 10px;
+}
+
+.mod-block-main p {
+  margin-left: 10px;
+}
+
 /* side
 ------------------------------ */
 
+#side {
+  float: right;
+  width: 240px;
+}
+
+#side ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#side ul li {
+  margin-bottom: 18px;
+}
+
+#side ul li img{
+  vertical-align: bottom;
+}
+
+#side ul li a:hover {
+  opacity: .7;
+}
+
 /* footer
 ------------------------------ */
+
+#footer {
+  padding-bottom: 10px;
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.footer-nav {
+  padding: 15px 0;
+  margin: 0;
+}
+
+.footer-nav li {
+  display: inline-block;
+  padding-left: 3px;
+}
+
+.footer-nav li a {
+  color: #ffffff;
+}
+
+.footer-nav li a:hover {
+  color: #E74C3C;
+}
+
+.footer-copyright {
+  text-align: right;
+  font-size: 10px;
+  margin: 0;
+}
